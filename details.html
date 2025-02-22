@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TAJ 5 STAR RESTARUENT</title>
+</head>
+<body>
+
+        <h2>BOOK AND RESERVE YOUR SEATS HERE </h2>
+
+        <form action="#" method="get">
+        
+            <h3>Customer Details</h3>
+            Name :<input type="text" id="name" name="name">
+            Phone :<input type="number" id="phone" name="phone">
+            Email Address :<input type="email" id="email" name="email">
+            
+            <h3>Food Order</h3>
+            Select Food Item :<select id="food" name="food">
+                <option value="steak">Grilled Steak</option>
+                <option value="lobster">Lobster Thermidor</option>
+                <option value="pasta">Truffle Pasta</option>
+                <option value="dessert">Chocolate Lava Cake</option>
+            </select>
+            
+            Quantity :<input type="number" id="quantity" name="quantity" min="1">
+            
+            <h3>Table Booking</h3>
+            Table for :<select id="table" name="table">
+                <option value="1">1 Person</option>
+                <option value="2">2 People</option>
+                <option value="4">4 People</option>
+                <option value="6">6 People</option>
+            </select>
+            
+            Reservation Date :<input type="date" id="date" name="date">
+
+            Reservation Time :<input type="time" id="time" name="time">
+
+            <h3>Special Requests</h3>
+            <textarea id="requests" name="requests" rows="4" placeholder="Any special requests..."></textarea>
+
+            <h3>Payment Method</h3>
+            
+                <input type="radio" name="payment" value="credit_card"> Credit Card
+            
+            
+                <input type="radio" name="payment" value="cash"> Cash on Delivery
+            
+
+            <div class="buttons">
+                <button type="submit">Submit</button>
+                <button type="reset">Reset</button>
+            </div>
+        </form>
+    </div>
+
+</body>
+</html>
